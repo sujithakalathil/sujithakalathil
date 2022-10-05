@@ -9,7 +9,7 @@ You can click the Preview link to take a look at your changes.
 - git add {file name} - To add a specific file to staging area.
 - git add . - To add all files from working directory to staging area.
 - git commit - To commit the changes.
-- git commit -am "{message}" - To commit all the modified files(which are tracked) from the working directory. Untracked files are not committed.
+- git commit -am "{message}" - To commit all the modified files(which are tracked) from the working directory by passing staging area. Untracked files are not committed.
 - git checkout -- {file name} - To switch back to previous committed stage.
 
 >###### This is written using Markdown notations.
